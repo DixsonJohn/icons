@@ -1,0 +1,39 @@
+#navbar{
+    height: 60px;
+    background-color: rgb(236, 236, 236);
+}
+.fa-bars{
+    color: rgb(155, 155, 155);
+    font-size: 1.5rem;
+    padding: 18px;
+}
+.fa-bars:hover{
+    color: rgb(236, 236, 236);
+    background-color: rgb(155, 155, 155);
+    cursor: pointer;
+}
+#sidebar
+{
+    height: 100vh;
+    width: 18%;
+    background-color: rgb(236, 236, 236);
+    margin-top: -21px;
+    font-size: 1.3rem;
+    color: rgb(155, 155, 155);
+}
+#side-bar-container ul
+{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 15px;
+}
+#side-bar-container ul li i{
+    padding: 15px;
+}
+#side-bar-container ul li:hover{
+    background-color: rgb(155, 155, 155);
+    color: rgb(236, 236, 236);
+}
+#side-bar-container ul li:hover{
+    border-left: 5px solid red;
+}
